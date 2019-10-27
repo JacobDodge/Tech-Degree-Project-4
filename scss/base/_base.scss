@@ -1,0 +1,20 @@
+//Base Styles
+@font-face {
+  src: url('$font-url-google');
+  font-family: $font-family--lato;
+  font-family: $font-family--roboto;
+}
+
+
+* {
+    color: $grey;
+    box-sizing: border-box;
+  }
+  
+  p {
+    line-height: 1.45em;
+  }
+  
+  a {
+    text-decoration: none;
+  }

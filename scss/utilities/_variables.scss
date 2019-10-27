@@ -1,0 +1,44 @@
+//Style
+$up: Uppercase;
+
+//  Main Colors
+$white: #fff;
+$grey: #777;
+$black: #000;
+$light-blue: #51ddfc;
+$light-green: #58e1c1;
+$img-frame-clr: #ccc;
+
+//Button Colors
+$btn-dflt-clr: $light-blue;
+$btn-success-clr: #63cc82;
+$btn-err-clr: #e4757a;
+$btn-warn-clr: #fd7856;
+$btn-info-clr: #927bc1;
+
+// Column colors
+$col-1-clr: #927bc1;
+$col-2-clr: #fd7856;
+$col-3-clr: #deb2ee;
+$col-4-clr: #7ee6fd;
+$col-5-clr: #88d9a0;
+$col-6-clr: #4da2bb;
+$col-7-clr: #ec9fa3;
+$col-8-clr: #fd9f85;
+$col-9-clr: #e4757a;
+$col-10-clr: #63cc82;
+$col-11-clr: #51ddfc;
+$col-12-clr: #80e8d1;
+
+// Font Stack
+$font-url--google: "https://fonts.googleapis.com/css?family=Lato:300,400,700|Roboto&display=swap";
+$font-family--lato:  'Lato', sans-serif;
+$font-family--roboto: 'Roboto', sans-serif;
+
+//Font weight
+$font-wt--light: 300;
+$font-wt--med: 400;
+$font-wt--bold: 700;
+
+//Media Queries
+$break: 768px;

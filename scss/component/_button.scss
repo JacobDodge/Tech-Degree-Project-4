@@ -1,0 +1,31 @@
+//Buttons
+.btn {
+    margin-top: em(15);
+    width: 100%;
+    color: $white;
+    border: none;
+    padding: em(10) 0;
+    text-transform: $up;
+    border-radius: em(5);
+  }
+  
+  .default {
+    background-color: $btn-dflt-clr;
+  }
+  
+  .error {
+    background-color: $btn-err-clr;
+  }
+  
+  .info {
+    background-color: $btn-info-clr;
+  }
+  
+  .success {
+    background-color: $btn-success-clr;
+  }
+  
+  .warning {
+    background-color: $btn-warn-clr;
+  }
+  

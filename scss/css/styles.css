@@ -341,13 +341,8 @@ template {
   display: none;
 }
 
-@font-face {
-  src: url("$font-url-google");
-  font-family: "Lato", sans-serif;
-  font-family: "Roboto", sans-serif;
-}
-
 * {
+  font-family: 'Lato', sans-serif;
   color: #777;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -363,7 +358,7 @@ a {
 
 .headline-primary {
   color: #58e1c1;
-  margin-left: 0.625em;
+  margin-left: 10px;
 }
 
 .headline-secondary {
@@ -380,10 +375,10 @@ a {
   font-size: 1.5em;
   font-weight: 300;
   font-style: italic;
-  margin-left: 1.25em;
-  padding-left: 1.25em;
-  border-left: 0.5em solid #58e1c1;
-  border-radius: 0.3125em;
+  margin-left: 20px;
+  padding-left: 20px;
+  border-left: 8px solid #58e1c1;
+  border-radius: 5px;
 }
 
 .nav {
@@ -418,7 +413,7 @@ a {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 0.625em;
+  margin-top: 10px;
   max-width: 100%;
   max-height: 100%;
 }
@@ -440,7 +435,7 @@ a {
 }
 
 .container {
-  padding: 0 0.625em;
+  padding: 0 10px;
 }
 
 .row {
@@ -451,16 +446,16 @@ a {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  padding: 1em 0.625em;
+  padding: 1em 10px;
 }
 
 [class^=col] {
-  margin-top: 0.625em;
+  margin-top: 10px;
   -ms-flex-preferred-size: 100%;
       flex-basis: 100%;
-  min-height: 1.5625em;
-  padding: 0.625em;
-  border-radius: 0.3125em;
+  min-height: 25px;
+  padding: 10px;
+  border-radius: 5px;
 }
 
 .theme.col-1 {
@@ -524,29 +519,29 @@ a {
 .input {
   display: block;
   width: 94%;
-  margin: 0.625em auto 0;
+  margin: 10px auto 0;
   border: none;
-  padding: 0.625em;
-  border-bottom: 0.3125em solid #58e1c1;
+  padding: 10px;
+  border-bottom: 5px solid #58e1c1;
 }
 
 .hidden {
   position: absolute;
-  left: -625em;
+  left: -10000px;
   top: auto;
-  width: 0.0625em;
-  height: 0.0625em;
+  width: 1px;
+  height: 1px;
   overflow: hidden;
 }
 
 .btn {
-  margin-top: 0.9375em;
+  margin-top: 15px;
   width: 100%;
   color: #fff;
   border: none;
-  padding: 0.625em 0;
-  text-transform: Uppercase;
-  border-radius: 0.3125em;
+  padding: 10px 0;
+  text-transform: uppercase;
+  border-radius: 5px;
 }
 
 .default {

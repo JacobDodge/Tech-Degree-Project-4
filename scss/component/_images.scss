@@ -1,26 +1,21 @@
 //Images
 .img-avatar {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    @include img-disp;
     margin-top: em(10);
     max-width: 100%; 
     max-height: 100%;
   }
   
   .img-frame {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 10px;
+    @include img-disp;
+    margin-top: em(10);
     max-width: 100%;
-    padding: 13px;
+    padding: em(13);
     border: 1px solid #ccc;
+    
   }
   
   .img-logo {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    @include img-disp;
   }
   

@@ -7,25 +7,33 @@
     padding: em(10) 0;
     text-transform: $up;
     border-radius: em(5);
+    transition:
+    background-color .2s ease-in-out, 
+    color .2s ease-in-out;
+    &.default {
+      
+      background-color: $btn-dflt-clr;
+      @include btn-hov($btn-dflt-clr);
+    }
+    &.error {
+      background-color: $btn-err-clr;
+      @include btn-hov($btn-err-clr);
+    }
+    &.info {
+      background-color: $btn-info-clr;
+      @include btn-hov($btn-info-clr);
+    }
+    &.success {
+      background-color: $btn-success-clr;
+      @include btn-hov($btn-success-clr);
+    }
+    &.warning {
+      background-color: $btn-warn-clr;
+      @include btn-hov($btn-warn-clr);
+    }
+  
   }
   
-  .default {
-    background-color: $btn-dflt-clr;
-  }
   
-  .error {
-    background-color: $btn-err-clr;
-  }
-  
-  .info {
-    background-color: $btn-info-clr;
-  }
-  
-  .success {
-    background-color: $btn-success-clr;
-  }
-  
-  .warning {
-    background-color: $btn-warn-clr;
-  }
+
   
